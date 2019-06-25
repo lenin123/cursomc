@@ -1,0 +1,8 @@
+package com.leninmuller.cursomc.domain;
+
+public class Pagamento {
+
+	private Integer id;
+	private EstadoPagamento estado;
+	
+}

@@ -1,0 +1,12 @@
+package com.leninmuller.cursomc.domain;
+
+import com.leninmuller.cursomc.domain.enums.EstadoPagamento;
+
+public class Pagamento {
+
+	private Integer id;
+	private EstadoPagamento estado;
+	
+	private Pedido pedido;
+	
+}

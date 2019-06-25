@@ -1,0 +1,42 @@
+package com.leninmuller.cursomc.domain;
+
+import javax.persistence.Entity;
+import java.util.Date;
+import com.leninmuller.cursomc.domain.enums.EstadoPagamento;
+
+@Entity
+public class PagamentoComBoleto extends Pagamento{
+	
+	private static final long serialVersionUID = 1L;	
+	
+	private Data dataVencimento;
+	private Data dataPagamento;	
+	
+	public PagamentoComBoleto() {
+		
+	}
+
+	public PagamentoComBoleto(Integer id, EstadoPagamento estado, Pedido pedido, Data dataPagamento, Data dataVencimento) {
+		super(id, estado, pedido);
+		this.dataPagamento = dataPagamento;
+		this.dataVencimento =  dataVencimento;
+	}
+
+	public Data getDataVencimento() {
+		return dataVencimento;
+	}
+
+	public void setDataVencimento(Data dataVencimento) {
+		this.dataVencimento = dataVencimento;
+	}
+
+	public Data getDataPagamento() {
+		return dataPagamento;
+	}
+
+	public void setDataPagamento(Data dataPagamento) {
+		this.dataPagamento = dataPagamento;
+	}
+	
+	
+}

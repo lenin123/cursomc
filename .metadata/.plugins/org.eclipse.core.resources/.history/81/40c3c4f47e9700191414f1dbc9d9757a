@@ -1,0 +1,21 @@
+package com.leninmuller.cursomc.domain;
+
+import javax.xml.crypto.Data;
+
+import com.leninmuller.cursomc.domain.enums.EstadoPagamento;
+
+public class PagamentoComBoleto extends Pagamento{
+	private Data dataVencimento;
+	private Data dataPagamento;	
+	
+	public PagamentoComBoleto() {
+		
+	}
+
+	public PagamentoComBoleto(Integer id, EstadoPagamento estado, Pedido pedido) {
+		super(id, estado, pedido);
+		// TODO Auto-generated constructor stub
+	}
+	
+	
+}
