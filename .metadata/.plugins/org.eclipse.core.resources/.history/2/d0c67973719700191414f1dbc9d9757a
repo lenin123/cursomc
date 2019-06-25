@@ -1,0 +1,5 @@
+package com.leninmuller.cursomc.repositories;
+
+public class EstadoRepository {
+
+}

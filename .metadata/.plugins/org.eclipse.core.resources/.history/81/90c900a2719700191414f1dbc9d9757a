@@ -1,0 +1,9 @@
+package com.leninmuller.cursomc.repositories;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.leninmuller.cursomc.domain.Categoria;
+
+public class CidadeRepository extends JpaRepository<Categoria, Integer>{
+
+}

@@ -1,0 +1,6 @@
+package com.leninmuller.cursomc.domain.enums;
+
+public enum TipoCliente {
+	PESSOAFISICA,
+	PESSOAJURIDICA;
+}

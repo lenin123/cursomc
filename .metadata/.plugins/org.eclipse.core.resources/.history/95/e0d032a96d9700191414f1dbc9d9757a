@@ -1,0 +1,11 @@
+package com.leninmuller.cursomc.domain;
+
+public class Estado {
+	
+	private Integer id;
+	private String nome;
+	
+	public Estado() {
+		
+	}
+}

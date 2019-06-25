@@ -1,2 +1,6 @@
 1561471829684	Encapsulate field 'produtos'
 1561473988104	Rename type 'ObjectNotFoundExceptions'
+1561483084003	Encapsulate field 'cidade'
+1561483413560	Encapsulate field 'estado'
+1561488612961	Copy compilation unit
+1561488656260	Copy compilation unit
