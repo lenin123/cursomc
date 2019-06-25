@@ -1,0 +1,5 @@
+package com.leninmuller.cursomc.resources.exception;
+
+public class StandedError {
+
+}

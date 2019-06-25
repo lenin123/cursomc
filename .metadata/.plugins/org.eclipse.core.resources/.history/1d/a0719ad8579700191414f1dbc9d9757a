@@ -1,0 +1,5 @@
+package com.leninmuller.cursomc.services.exceptions;
+
+public class ObjectNotFoundExceptions {
+
+}
