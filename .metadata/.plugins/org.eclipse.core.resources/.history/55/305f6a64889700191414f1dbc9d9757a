@@ -1,0 +1,5 @@
+package com.leninmuller.cursomc.domain;
+
+public class ItemPedidoPK {
+
+}
