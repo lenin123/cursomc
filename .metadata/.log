@@ -354,3 +354,60 @@ java.lang.InterruptedException
 	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:133)
 	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:89)
 	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:169)
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-26 10:08:16.447
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.VqCGExvD
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-26 10:08:16.454
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.VqCGExvD
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-26 10:08:16.459
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-26 10:08:16.466
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.VqCGExvD => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-26 10:09:26.263
+!MESSAGE Boot LS startup time from start to initialized: 14340ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-26 10:09:26.341
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.pGVyJawlisBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-26 10:09:26.347
+!MESSAGE subscribing to classpath changes: sts4.classpath.pGVyJawl isBatched = true
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-26 10:09:26.351
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-26 10:09:26.356
+!MESSAGE subsribers = {sts4.classpath.pGVyJawl=Send Classpath Notifications(7339)}
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-26 10:09:26.360
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-26 10:09:26.364
+!MESSAGE project cursomc ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-26 10:09:26.368
+!MESSAGE Preparing classpath changed notification cursomc
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-26 10:09:26.371
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-26 10:09:26.375
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-26 10:09:26.379
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.pGVyJawl => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-26 10:09:26.383
+!MESSAGE classpath=123 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-26 10:09:26.388
+!MESSAGE buffering callback sts4.classpath.pGVyJawl cursomc false 123
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-26 10:09:26.392
+!MESSAGE executing callback sts4.classpath.pGVyJawl 1 batched events
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-06-26 10:09:26.433
+!MESSAGE executing callback sts4.classpath.pGVyJawl SUCCESS [done]
